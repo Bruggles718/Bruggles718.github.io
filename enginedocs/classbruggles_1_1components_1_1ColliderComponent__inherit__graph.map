@@ -1,0 +1,7 @@
+<map id="bruggles::components::ColliderComponent" name="bruggles::components::ColliderComponent">
+<area shape="rect" id="node1" title=" " alt="" coords="220,71,387,112"/>
+<area shape="rect" id="node3" href="$classbruggles_1_1components_1_1BoxColliderComponent.html" title=" " alt="" coords="441,5,621,47"/>
+<area shape="rect" id="node4" href="$classbruggles_1_1components_1_1CircleColliderComponent.html" title=" " alt="" coords="435,71,627,112"/>
+<area shape="rect" id="node5" href="$classbruggles_1_1components_1_1HullColliderComponent.html" title=" " alt="" coords="440,136,621,177"/>
+<area shape="rect" id="node2" href="$classbruggles_1_1components_1_1Component.html" title=" " alt="" coords="5,71,172,112"/>
+</map>

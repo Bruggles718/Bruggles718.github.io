@@ -1,0 +1,7 @@
+<map id="bruggles::components::ShapeRenderer" name="bruggles::components::ShapeRenderer">
+<area shape="rect" id="node1" title=" " alt="" coords="100,184,267,225"/>
+<area shape="rect" id="node4" href="$classbruggles_1_1components_1_1CircleRenderer.html" title=" " alt="" coords="5,273,172,315"/>
+<area shape="rect" id="node5" href="$classbruggles_1_1components_1_1PolygonRenderer.html" title=" " alt="" coords="196,273,363,315"/>
+<area shape="rect" id="node2" href="$classbruggles_1_1components_1_1Renderer.html" title=" " alt="" coords="100,95,267,136"/>
+<area shape="rect" id="node3" href="$classbruggles_1_1components_1_1Component.html" title=" " alt="" coords="100,5,267,47"/>
+</map>

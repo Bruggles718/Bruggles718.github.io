@@ -1,0 +1,5 @@
+<map id="bruggles::physics::HullCollider" name="bruggles::physics::HullCollider">
+<area shape="rect" id="node1" title=" " alt="" coords="5,95,148,136"/>
+<area shape="rect" id="node3" href="$structbruggles_1_1physics_1_1BoxCollider.html" title=" " alt="" coords="5,184,148,225"/>
+<area shape="rect" id="node2" href="$structbruggles_1_1physics_1_1Collider.html" title=" " alt="" coords="5,5,148,47"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="bruggles::components::ShapeRenderer" name="bruggles::components::ShapeRenderer">
+<area shape="rect" id="node1" title=" " alt="" coords="61,407,227,448"/>
+<area shape="rect" id="node2" href="$classbruggles_1_1components_1_1Renderer.html" title=" " alt="" coords="201,316,367,357"/>
+<area shape="rect" id="node3" href="$classbruggles_1_1components_1_1Component.html" title=" " alt="" coords="201,200,367,241"/>
+<area shape="rect" id="node4" href="$classbruggles_1_1GameObject.html" title=" " alt="" coords="201,96,367,123"/>
+<area shape="rect" id="node5" href="$classbruggles_1_1Serializable.html" title=" " alt="" coords="5,13,168,39"/>
+<area shape="rect" id="node8" href="$structbruggles_1_1Vector2.html" title=" " alt="" coords="19,96,154,123"/>
+<area shape="rect" id="node6" title=" " alt="" coords="192,5,395,47"/>
+<area shape="rect" id="node7" href="$structbruggles_1_1Transform.html" title=" " alt="" coords="11,265,162,292"/>
+</map>

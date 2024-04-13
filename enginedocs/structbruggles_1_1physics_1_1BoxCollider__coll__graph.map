@@ -1,0 +1,10 @@
+<map id="bruggles::physics::BoxCollider" name="bruggles::physics::BoxCollider">
+<area shape="rect" id="node1" title=" " alt="" coords="118,561,261,603"/>
+<area shape="rect" id="node2" href="$structbruggles_1_1physics_1_1HullCollider.html" title=" " alt="" coords="118,471,261,512"/>
+<area shape="rect" id="node3" href="$structbruggles_1_1physics_1_1Collider.html" title=" " alt="" coords="118,380,261,421"/>
+<area shape="rect" id="node4" href="$classbruggles_1_1components_1_1ColliderComponent.html" title=" " alt="" coords="106,276,273,317"/>
+<area shape="rect" id="node5" href="$classbruggles_1_1components_1_1Component.html" title=" " alt="" coords="106,185,273,227"/>
+<area shape="rect" id="node6" href="$classbruggles_1_1GameObject.html" title=" " alt="" coords="106,96,273,123"/>
+<area shape="rect" id="node7" href="$classbruggles_1_1Serializable.html" title=" " alt="" coords="5,13,168,39"/>
+<area shape="rect" id="node8" title=" " alt="" coords="192,5,395,47"/>
+</map>

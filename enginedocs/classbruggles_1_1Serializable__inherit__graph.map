@@ -1,0 +1,13 @@
+<map id="bruggles::Serializable" name="bruggles::Serializable">
+<area shape="rect" id="node1" title=" " alt="" coords="5,279,168,305"/>
+<area shape="rect" id="node2" href="$classbruggles_1_1GameObject.html" title=" " alt="" coords="229,5,395,32"/>
+<area shape="rect" id="node3" href="$structbruggles_1_1Vector2.html" title=" " alt="" coords="245,56,379,83"/>
+<area shape="rect" id="node4" href="$classbruggles_1_1components_1_1BoxColliderComponent.html" title=" " alt="" coords="222,107,402,149"/>
+<area shape="rect" id="node5" href="$classbruggles_1_1components_1_1CircleColliderComponent.html" title=" " alt="" coords="216,173,408,214"/>
+<area shape="rect" id="node6" href="$classbruggles_1_1components_1_1CircleRenderer.html" title=" " alt="" coords="229,238,395,279"/>
+<area shape="rect" id="node7" href="$classbruggles_1_1components_1_1HullColliderComponent.html" title=" " alt="" coords="221,303,403,345"/>
+<area shape="rect" id="node8" href="$classbruggles_1_1components_1_1PolygonRenderer.html" title=" " alt="" coords="229,369,395,410"/>
+<area shape="rect" id="node9" href="$classbruggles_1_1components_1_1RigidbodyComponent.html" title=" " alt="" coords="227,434,397,475"/>
+<area shape="rect" id="node10" href="$classbruggles_1_1components_1_1SpriteRenderer.html" title=" " alt="" coords="229,499,395,541"/>
+<area shape="rect" id="node11" href="$classbruggles_1_1components_1_1TransformComponent.html" title=" " alt="" coords="227,565,397,606"/>
+</map>

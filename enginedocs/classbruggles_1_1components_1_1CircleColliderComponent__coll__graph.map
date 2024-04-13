@@ -1,0 +1,8 @@
+<map id="bruggles::components::CircleColliderComponent" name="bruggles::components::CircleColliderComponent">
+<area shape="rect" id="node1" title=" " alt="" coords="29,367,221,408"/>
+<area shape="rect" id="node2" href="$classbruggles_1_1components_1_1ColliderComponent.html" title=" " alt="" coords="125,276,291,317"/>
+<area shape="rect" id="node3" href="$classbruggles_1_1components_1_1Component.html" title=" " alt="" coords="125,185,291,227"/>
+<area shape="rect" id="node4" href="$classbruggles_1_1GameObject.html" title=" " alt="" coords="125,96,291,123"/>
+<area shape="rect" id="node5" href="$classbruggles_1_1Serializable.html" title=" " alt="" coords="5,13,168,39"/>
+<area shape="rect" id="node6" title=" " alt="" coords="192,5,395,47"/>
+</map>

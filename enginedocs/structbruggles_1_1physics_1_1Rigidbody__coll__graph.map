@@ -1,0 +1,12 @@
+<map id="bruggles::physics::Rigidbody" name="bruggles::physics::Rigidbody">
+<area shape="rect" id="node1" title=" " alt="" coords="1564,35,1707,77"/>
+<area shape="rect" id="node2" href="$structbruggles_1_1physics_1_1CollisionObject.html" title=" " alt="" coords="1372,86,1515,127"/>
+<area shape="rect" id="node3" href="$classbruggles_1_1GameObject.html" title=" " alt="" coords="257,119,424,145"/>
+<area shape="rect" id="node8" href="$classbruggles_1_1components_1_1Component.html" title=" " alt="" coords="576,169,743,210"/>
+<area shape="rect" id="node4" href="$classbruggles_1_1Serializable.html" title=" " alt="" coords="25,63,188,89"/>
+<area shape="rect" id="node10" href="$structbruggles_1_1Vector2.html" title=" " alt="" coords="808,59,943,85"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,118,208,159"/>
+<area shape="rect" id="node6" href="$structbruggles_1_1physics_1_1Collider.html" title=" " alt="" coords="1108,169,1251,210"/>
+<area shape="rect" id="node7" href="$classbruggles_1_1components_1_1ColliderComponent.html" title=" " alt="" coords="792,177,959,218"/>
+<area shape="rect" id="node9" href="$structbruggles_1_1Transform.html" title=" " alt="" coords="1104,64,1255,91"/>
+</map>
