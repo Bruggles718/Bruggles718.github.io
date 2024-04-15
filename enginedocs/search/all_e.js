@@ -1,12 +1,6 @@
 var searchData=
 [
-  ['radius_52',['Radius',['../classbruggles_1_1components_1_1CircleColliderComponent.html#a2f704ae80c2b4a85b7a0d97ba48f43c4',1,'bruggles::components::CircleColliderComponent::Radius()'],['../classbruggles_1_1components_1_1CircleRenderer.html#a057ef2a33127cad22f286e5c2ca340dc',1,'bruggles::components::CircleRenderer::Radius()']]],
-  ['render_53',['Render',['../classbruggles_1_1components_1_1CircleRenderer.html#a10e9b069c308e258c03a7801bf07faa1',1,'bruggles::components::CircleRenderer::Render()'],['../classbruggles_1_1components_1_1PolygonRenderer.html#aa5dd5bce17a9d6e99b2757208c5f455f',1,'bruggles::components::PolygonRenderer::Render()'],['../classbruggles_1_1components_1_1Renderer.html#a0e51f0b706c48d0983dd841450be0008',1,'bruggles::components::Renderer::Render()'],['../classbruggles_1_1components_1_1SpriteRenderer.html#a2c57223cd794e9308158deeb6731d357',1,'bruggles::components::SpriteRenderer::Render()']]],
-  ['renderer_54',['Renderer',['../classbruggles_1_1components_1_1Renderer.html',1,'bruggles::components']]],
-  ['rendertocamera_55',['RenderToCamera',['../classbruggles_1_1components_1_1CircleRenderer.html#ae07e546c6c20816602bea50fe897a126',1,'bruggles::components::CircleRenderer::RenderToCamera()'],['../classbruggles_1_1components_1_1PolygonRenderer.html#a398ac75da5ad62039364750bb2bdbd5c',1,'bruggles::components::PolygonRenderer::RenderToCamera()'],['../classbruggles_1_1components_1_1Renderer.html#a8e0eab2edf4afb496ec4e5c18398af37',1,'bruggles::components::Renderer::RenderToCamera()'],['../classbruggles_1_1components_1_1SpriteRenderer.html#a707288fbfab14218b0a359d6a4706be7',1,'bruggles::components::SpriteRenderer::RenderToCamera()']]],
-  ['rendertoscreen_56',['RenderToScreen',['../classbruggles_1_1components_1_1Renderer.html#a763df637fd8d740e32a9466875148260',1,'bruggles::components::Renderer']]],
-  ['restitution_57',['Restitution',['../classbruggles_1_1components_1_1RigidbodyComponent.html#ac92418eb32d421bfcbe007f1a77db156',1,'bruggles::components::RigidbodyComponent::Restitution()'],['../structbruggles_1_1physics_1_1Rigidbody.html#a21a78539f5af1ddd64f63bd4be5bd08b',1,'bruggles::physics::Rigidbody::Restitution()']]],
-  ['rigidbody_58',['Rigidbody',['../structbruggles_1_1physics_1_1Rigidbody.html',1,'bruggles::physics']]],
-  ['rigidbodycomponent_59',['RigidbodyComponent',['../classbruggles_1_1components_1_1RigidbodyComponent.html',1,'bruggles::components']]],
-  ['rotation_60',['Rotation',['../classbruggles_1_1components_1_1TransformComponent.html#a36d33f7ffcda48b5549d50bb1b6df009',1,'bruggles::components::TransformComponent']]]
+  ['polygonrenderer_69',['PolygonRenderer',['../classbruggles_1_1components_1_1PolygonRenderer.html',1,'bruggles::components']]],
+  ['position_70',['Position',['../classbruggles_1_1components_1_1TransformComponent.html#aa88d04b4d975a022af60af5fcd3b369f',1,'bruggles::components::TransformComponent']]],
+  ['positionsolver_71',['PositionSolver',['../structbruggles_1_1physics_1_1PositionSolver.html',1,'bruggles::physics']]]
 ];

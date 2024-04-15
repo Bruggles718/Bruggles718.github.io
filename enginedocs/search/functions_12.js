@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['width_205',['Width',['../classbruggles_1_1components_1_1BoxColliderComponent.html#a994044fc2428fba8355941abfed5d9e9',1,'bruggles::components::BoxColliderComponent']]]
+  ['unitx_253',['UnitX',['../structbruggles_1_1Vector2.html#a06a1b0db65ff2190fd37ca69efd7fac8',1,'bruggles::Vector2']]],
+  ['unity_254',['UnitY',['../structbruggles_1_1Vector2.html#a04d6d55c964e82918a503b624312a262',1,'bruggles::Vector2']]]
 ];

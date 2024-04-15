@@ -1,8 +1,14 @@
 var searchData=
 [
-  ['takesgravity_92',['TakesGravity',['../structbruggles_1_1physics_1_1Rigidbody.html#ae338179d88e150bf51011520da6d42d7',1,'bruggles::physics::Rigidbody::TakesGravity()'],['../classbruggles_1_1components_1_1RigidbodyComponent.html#a5839985ff42250d9a4901197fa90555f',1,'bruggles::components::RigidbodyComponent::TakesGravity()']]],
-  ['texturefunctordeleter_93',['TextureFunctorDeleter',['../structbruggles_1_1TextureFunctorDeleter.html',1,'bruggles']]],
-  ['texturemanager_94',['TextureManager',['../classbruggles_1_1TextureManager.html',1,'bruggles']]],
-  ['transform_95',['Transform',['../structbruggles_1_1Transform.html',1,'bruggles']]],
-  ['transformcomponent_96',['TransformComponent',['../classbruggles_1_1components_1_1TransformComponent.html',1,'bruggles::components']]]
+  ['radius_73',['Radius',['../classbruggles_1_1components_1_1CircleColliderComponent.html#a2f704ae80c2b4a85b7a0d97ba48f43c4',1,'bruggles::components::CircleColliderComponent::Radius()'],['../classbruggles_1_1components_1_1CircleRenderer.html#a057ef2a33127cad22f286e5c2ca340dc',1,'bruggles::components::CircleRenderer::Radius()']]],
+  ['removegameobjectatidx_74',['RemoveGameObjectAtIdx',['../classbruggles_1_1Application.html#a06f32f352fe8de74fa389012bbc24f22',1,'bruggles::Application']]],
+  ['removerigidbody_75',['RemoveRigidbody',['../classbruggles_1_1Application.html#a2a2d9823b6fca28b89217477626238fe',1,'bruggles::Application']]],
+  ['render_76',['Render',['../classbruggles_1_1components_1_1SpriteRenderer.html#a2c57223cd794e9308158deeb6731d357',1,'bruggles::components::SpriteRenderer::Render()'],['../classbruggles_1_1components_1_1Renderer.html#a0e51f0b706c48d0983dd841450be0008',1,'bruggles::components::Renderer::Render()'],['../classbruggles_1_1components_1_1CircleRenderer.html#a10e9b069c308e258c03a7801bf07faa1',1,'bruggles::components::CircleRenderer::Render()'],['../classbruggles_1_1components_1_1PolygonRenderer.html#aa5dd5bce17a9d6e99b2757208c5f455f',1,'bruggles::components::PolygonRenderer::Render()']]],
+  ['renderer_77',['Renderer',['../classbruggles_1_1components_1_1Renderer.html',1,'bruggles::components']]],
+  ['rendertocamera_78',['RenderToCamera',['../classbruggles_1_1components_1_1CircleRenderer.html#ae07e546c6c20816602bea50fe897a126',1,'bruggles::components::CircleRenderer::RenderToCamera()'],['../classbruggles_1_1components_1_1PolygonRenderer.html#a398ac75da5ad62039364750bb2bdbd5c',1,'bruggles::components::PolygonRenderer::RenderToCamera()'],['../classbruggles_1_1components_1_1Renderer.html#a8e0eab2edf4afb496ec4e5c18398af37',1,'bruggles::components::Renderer::RenderToCamera()'],['../classbruggles_1_1components_1_1SpriteRenderer.html#a707288fbfab14218b0a359d6a4706be7',1,'bruggles::components::SpriteRenderer::RenderToCamera()']]],
+  ['rendertoscreen_79',['RenderToScreen',['../classbruggles_1_1components_1_1Renderer.html#a763df637fd8d740e32a9466875148260',1,'bruggles::components::Renderer']]],
+  ['restitution_80',['Restitution',['../classbruggles_1_1components_1_1RigidbodyComponent.html#ac92418eb32d421bfcbe007f1a77db156',1,'bruggles::components::RigidbodyComponent::Restitution()'],['../structbruggles_1_1physics_1_1Rigidbody.html#a21a78539f5af1ddd64f63bd4be5bd08b',1,'bruggles::physics::Rigidbody::Restitution()']]],
+  ['rigidbody_81',['Rigidbody',['../structbruggles_1_1physics_1_1Rigidbody.html',1,'bruggles::physics']]],
+  ['rigidbodycomponent_82',['RigidbodyComponent',['../classbruggles_1_1components_1_1RigidbodyComponent.html',1,'bruggles::components']]],
+  ['rotation_83',['Rotation',['../classbruggles_1_1components_1_1TransformComponent.html#a36d33f7ffcda48b5549d50bb1b6df009',1,'bruggles::components::TransformComponent']]]
 ];

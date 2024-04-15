@@ -92,97 +92,131 @@ $(function() {
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        ~<a class="code" href="classbruggles_1_1Application.html">Application</a>();</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordtype">void</span> Loop();</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        std::shared_ptr&lt;bruggles::GameObject&gt; AddGameObject();</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">void</span> RemoveGameObjectAtIdx(<span class="keywordtype">int</span> i_idx);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">bool</span> GetKey(<span class="keyword">const</span> std::string key);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">float</span> GetWidth();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classbruggles_1_1Application.html#ad32f20ea6af7a683458ffff2b7cbde1a">Loop</a>();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        std::shared_ptr&lt;bruggles::GameObject&gt; <a class="code" href="classbruggles_1_1Application.html#aae1af64e46bc6001271f37eeaa0de0ce">AddGameObject</a>();</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">float</span> GetHeight();</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordtype">void</span> SetGravity(<a class="code" href="structbruggles_1_1Vector2.html">Vector2</a> i_gravity);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="structbruggles_1_1Vector2.html">Vector2</a> GetGravity();</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordtype">bool</span> GetKeyDown(<span class="keyword">const</span> std::string key);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordtype">bool</span> GetKeyUp(<span class="keyword">const</span> std::string key);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classbruggles_1_1Application.html#a06f32f352fe8de74fa389012bbc24f22">RemoveGameObjectAtIdx</a>(<span class="keywordtype">int</span> i_idx);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classbruggles_1_1Application.html#a27853c34fe9925e9f5893efa7ed1abac">GetKey</a>(<span class="keyword">const</span> std::string key);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordtype">void</span> SetCameraPosition(<a class="code" href="structbruggles_1_1Vector2.html">Vector2</a> i_position);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="structbruggles_1_1Vector2.html">Vector2</a> GetCameraPosition();</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordtype">void</span> RenderToCamera(<a class="code" href="classbruggles_1_1components_1_1Renderer.html">components::Renderer</a>* i_renderer);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordtype">void</span> RenderToScreen(<a class="code" href="classbruggles_1_1components_1_1Renderer.html">components::Renderer</a>* i_renderer);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        std::shared_ptr&lt;SDL_Texture&gt; LoadTexture(std::string i_filePath);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classbruggles_1_1Application.html#ac7809b3bc5ef62fa449c5582a8b34ecb">GetWidth</a>();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classbruggles_1_1Application.html#a4d4e4ea084e796dd13988ec6ba1d20f2">GetHeight</a>();</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordtype">void</span> QueueSceneLoad(std::string i_filePath);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordtype">void</span> LoadSceneData(std::string i_filePath);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        std::string GetCurrentScene();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classbruggles_1_1Application.html#aa53d446afbf241e8e845c8ebb9bbb09b">SetGravity</a>(<a class="code" href="structbruggles_1_1Vector2.html">Vector2</a> i_gravity);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        std::vector&lt;std::shared_ptr&lt;bruggles::GameObject&gt;&gt; GetGameObjects();</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordtype">void</span> AddRigidbody(<a class="code" href="structbruggles_1_1physics_1_1Rigidbody.html">physics::Rigidbody</a>* i_rigidbody);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordtype">void</span> RemoveRigidbody(<a class="code" href="structbruggles_1_1physics_1_1Rigidbody.html">physics::Rigidbody</a>* i_rigidbody);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        Uint64 GenerateUniqueID();</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordtype">void</span> DuplicateGameObjectAtIdx(<span class="keywordtype">int</span> i_idx);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordtype">void</span> DeserializeGameObjectHelper(pybind11::handle gSerialized);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordtype">void</span> SwapGameObjectPosition(<span class="keywordtype">int</span> aIdx, <span class="keywordtype">int</span> bIdx);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        Uint64 Time();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="structbruggles_1_1Vector2.html">Vector2</a> <a class="code" href="classbruggles_1_1Application.html#a7600074c71c6e295bcd6d77a8a03ccdb">GetGravity</a>();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classbruggles_1_1Application.html#a8d215bb28a1f7c9e395fd12d0b12b30e">GetKeyDown</a>(<span class="keyword">const</span> std::string key);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classbruggles_1_1Application.html#aceb0ccfaf12660747b7b8b1c9d3a9879">GetKeyUp</a>(<span class="keyword">const</span> std::string key);</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordtype">void</span> EditorUpdate();</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordtype">void</span> Render();</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordtype">void</span> Input();</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordtype">void</span> Update(<span class="keywordtype">float</span> i_deltaTime);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classbruggles_1_1Application.html#a8b8f763be72d8a19e1334d878321903d">SetCameraPosition</a>(<a class="code" href="structbruggles_1_1Vector2.html">Vector2</a> i_position);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <a class="code" href="structbruggles_1_1Vector2.html">Vector2</a> <a class="code" href="classbruggles_1_1Application.html#a7ee6c953744cce560840788135101b5b">GetCameraPosition</a>();</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordtype">void</span> FixedUpdate(<span class="keywordtype">float</span> i_fixedDeltaTime);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordtype">void</span> RenderToCamera(<a class="code" href="classbruggles_1_1components_1_1Renderer.html">components::Renderer</a>* i_renderer);</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordtype">void</span> LateUpdate(<span class="keywordtype">float</span> i_deltaTime);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordtype">void</span> RenderToScreen(<a class="code" href="classbruggles_1_1components_1_1Renderer.html">components::Renderer</a>* i_renderer);</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="structbruggles_1_1Camera.html">Camera</a> m_camera;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordtype">bool</span> m_editorMode = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordtype">bool</span> m_run = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        SDL_Window* m_window;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        SDL_Renderer* m_renderer;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <a class="code" href="classbruggles_1_1TextureManager.html">TextureManager</a> m_textureManager;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        std::string m_sceneToLoad = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordtype">bool</span> m_loadScene = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        std::unordered_map&lt;std::string, int&gt; m_lastKeyboardState;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordtype">int</span> m_width = 640;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordtype">int</span> m_height = 480;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        std::vector&lt;std::shared_ptr&lt;GameObject&gt;&gt; m_gameObjects;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <a class="code" href="classbruggles_1_1physics_1_1DynamicsWorld.html">physics::DynamicsWorld</a> m_physicsWorld;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        std::shared_ptr&lt;SDL_Texture&gt; <a class="code" href="classbruggles_1_1Application.html#a2387e059839a1fa45a6200a7f60d3717">LoadTexture</a>(std::string i_filePath);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classbruggles_1_1Application.html#a96bd9e18033f2f93940425a5bf75f98e">QueueSceneLoad</a>(std::string i_filePath);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classbruggles_1_1Application.html#aa19921da6cfe59845b460f1d8903eb8b">LoadSceneData</a>(std::string i_filePath);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        std::string <a class="code" href="classbruggles_1_1Application.html#adc07f190cfe20f56374ec7925a8ad2a9">GetCurrentScene</a>();</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        Uint64 m_nextUniqueID = 0;</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordtype">int</span> m_selectedGameObjectIdx = 0;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    };</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;}</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        std::vector&lt;std::shared_ptr&lt;bruggles::GameObject&gt;&gt; <a class="code" href="classbruggles_1_1Application.html#a038a5b1861e683f5534000ad736fa05b">GetGameObjects</a>();</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classbruggles_1_1Application.html#ae281a73420b02e34db5bbb181bbace08">AddRigidbody</a>(<a class="code" href="structbruggles_1_1physics_1_1Rigidbody.html">physics::Rigidbody</a>* i_rigidbody);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classbruggles_1_1Application.html#a2a2d9823b6fca28b89217477626238fe">RemoveRigidbody</a>(<a class="code" href="structbruggles_1_1physics_1_1Rigidbody.html">physics::Rigidbody</a>* i_rigidbody);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        Uint64 <a class="code" href="classbruggles_1_1Application.html#ad378a1322901bcdf4f3bd37b0316efc1">GenerateUniqueID</a>();</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160; </div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classbruggles_1_1Application.html#a63537e6191ed330e6ef2bb0dc9ad5e3a">DuplicateGameObjectAtIdx</a>(<span class="keywordtype">int</span> i_idx);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160; </div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classbruggles_1_1Application.html#a99a907d666f3d1a7329cd292cf27f6fb">DeserializeGameObjectHelper</a>(pybind11::handle gSerialized);</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160; </div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classbruggles_1_1Application.html#a2ee47b41e095baf14b251f74b61a129e">SwapGameObjectPosition</a>(<span class="keywordtype">int</span> aIdx, <span class="keywordtype">int</span> bIdx);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; </div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        Uint64 <a class="code" href="classbruggles_1_1Application.html#a32a7edeacc5384a02e24b7dea31ea422">Time</a>();</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160; </div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classbruggles_1_1Application.html#a37f576d869d4cf806f63ddf5bb0caf17">EditorUpdate</a>();</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        std::shared_ptr&lt;bruggles::GameObject&gt; <a class="code" href="classbruggles_1_1Application.html#a614fbfc73ae62d173425a2d47da17cc6">InstantiateGameObject</a>();</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classbruggles_1_1Application.html#a313fa2ee2b380308fd9b4580a5f63003">DestroyGameObjectAtIdx</a>(<span class="keywordtype">int</span> i_idx);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160; </div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160; </div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordtype">void</span> Render();</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160; </div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordtype">void</span> Input();</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160; </div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <span class="keywordtype">void</span> Update(<span class="keywordtype">float</span> i_deltaTime);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160; </div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordtype">void</span> FixedUpdate(<span class="keywordtype">float</span> i_fixedDeltaTime);</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160; </div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <span class="keywordtype">void</span> LateUpdate(<span class="keywordtype">float</span> i_deltaTime);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160; </div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <a class="code" href="structbruggles_1_1Camera.html">Camera</a> m_camera;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160; </div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <span class="keywordtype">bool</span> m_editorMode = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <span class="keywordtype">bool</span> m_run = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        SDL_Window* m_window;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        SDL_Renderer* m_renderer;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <a class="code" href="classbruggles_1_1TextureManager.html">TextureManager</a> m_textureManager;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        std::string m_sceneToLoad = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordtype">bool</span> m_loadScene = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160; </div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        std::unordered_map&lt;std::string, int&gt; m_lastKeyboardState;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160; </div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="keywordtype">int</span> m_width = 640;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <span class="keywordtype">int</span> m_height = 480;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160; </div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        std::vector&lt;std::shared_ptr&lt;GameObject&gt;&gt; m_gameObjects;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        <a class="code" href="classbruggles_1_1physics_1_1DynamicsWorld.html">physics::DynamicsWorld</a> m_physicsWorld;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160; </div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        Uint64 m_nextUniqueID = 0;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160; </div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        std::vector&lt;std::shared_ptr&lt;GameObject&gt;&gt; m_gameObjectsToInstantiate;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        std::vector&lt;int&gt; m_gameObjectsAtIdxToDestroy;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    };</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;}</div>
 <div class="ttc" id="aclassbruggles_1_1Application_html"><div class="ttname"><a href="classbruggles_1_1Application.html">bruggles::Application</a></div><div class="ttdef"><b>Definition:</b> Application.hpp:19</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a038a5b1861e683f5534000ad736fa05b"><div class="ttname"><a href="classbruggles_1_1Application.html#a038a5b1861e683f5534000ad736fa05b">bruggles::Application::GetGameObjects</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; bruggles::GameObject &gt; &gt; GetGameObjects()</div><div class="ttdef"><b>Definition:</b> Application.cpp:65</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a06f32f352fe8de74fa389012bbc24f22"><div class="ttname"><a href="classbruggles_1_1Application.html#a06f32f352fe8de74fa389012bbc24f22">bruggles::Application::RemoveGameObjectAtIdx</a></div><div class="ttdeci">void RemoveGameObjectAtIdx(int i_idx)</div><div class="ttdef"><b>Definition:</b> Application.cpp:164</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a2387e059839a1fa45a6200a7f60d3717"><div class="ttname"><a href="classbruggles_1_1Application.html#a2387e059839a1fa45a6200a7f60d3717">bruggles::Application::LoadTexture</a></div><div class="ttdeci">std::shared_ptr&lt; SDL_Texture &gt; LoadTexture(std::string i_filePath)</div><div class="ttdef"><b>Definition:</b> Application.cpp:208</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a27853c34fe9925e9f5893efa7ed1abac"><div class="ttname"><a href="classbruggles_1_1Application.html#a27853c34fe9925e9f5893efa7ed1abac">bruggles::Application::GetKey</a></div><div class="ttdeci">bool GetKey(const std::string key)</div><div class="ttdef"><b>Definition:</b> Application.cpp:169</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a2a2d9823b6fca28b89217477626238fe"><div class="ttname"><a href="classbruggles_1_1Application.html#a2a2d9823b6fca28b89217477626238fe">bruggles::Application::RemoveRigidbody</a></div><div class="ttdeci">void RemoveRigidbody(physics::Rigidbody *i_rigidbody)</div><div class="ttdef"><b>Definition:</b> Application.cpp:267</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a2ee47b41e095baf14b251f74b61a129e"><div class="ttname"><a href="classbruggles_1_1Application.html#a2ee47b41e095baf14b251f74b61a129e">bruggles::Application::SwapGameObjectPosition</a></div><div class="ttdeci">void SwapGameObjectPosition(int aIdx, int bIdx)</div><div class="ttdef"><b>Definition:</b> Application.cpp:158</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a313fa2ee2b380308fd9b4580a5f63003"><div class="ttname"><a href="classbruggles_1_1Application.html#a313fa2ee2b380308fd9b4580a5f63003">bruggles::Application::DestroyGameObjectAtIdx</a></div><div class="ttdeci">void DestroyGameObjectAtIdx(int i_idx)</div><div class="ttdef"><b>Definition:</b> Application.cpp:288</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a32a7edeacc5384a02e24b7dea31ea422"><div class="ttname"><a href="classbruggles_1_1Application.html#a32a7edeacc5384a02e24b7dea31ea422">bruggles::Application::Time</a></div><div class="ttdeci">Uint64 Time()</div><div class="ttdef"><b>Definition:</b> Application.cpp:61</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a37f576d869d4cf806f63ddf5bb0caf17"><div class="ttname"><a href="classbruggles_1_1Application.html#a37f576d869d4cf806f63ddf5bb0caf17">bruggles::Application::EditorUpdate</a></div><div class="ttdeci">void EditorUpdate()</div><div class="ttdef"><b>Definition:</b> Application.cpp:271</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a4d4e4ea084e796dd13988ec6ba1d20f2"><div class="ttname"><a href="classbruggles_1_1Application.html#a4d4e4ea084e796dd13988ec6ba1d20f2">bruggles::Application::GetHeight</a></div><div class="ttdeci">float GetHeight()</div><div class="ttdef"><b>Definition:</b> Application.cpp:139</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a614fbfc73ae62d173425a2d47da17cc6"><div class="ttname"><a href="classbruggles_1_1Application.html#a614fbfc73ae62d173425a2d47da17cc6">bruggles::Application::InstantiateGameObject</a></div><div class="ttdeci">std::shared_ptr&lt; bruggles::GameObject &gt; InstantiateGameObject()</div><div class="ttdef"><b>Definition:</b> Application.cpp:281</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a63537e6191ed330e6ef2bb0dc9ad5e3a"><div class="ttname"><a href="classbruggles_1_1Application.html#a63537e6191ed330e6ef2bb0dc9ad5e3a">bruggles::Application::DuplicateGameObjectAtIdx</a></div><div class="ttdeci">void DuplicateGameObjectAtIdx(int i_idx)</div><div class="ttdef"><b>Definition:</b> Application.cpp:128</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a7600074c71c6e295bcd6d77a8a03ccdb"><div class="ttname"><a href="classbruggles_1_1Application.html#a7600074c71c6e295bcd6d77a8a03ccdb">bruggles::Application::GetGravity</a></div><div class="ttdeci">Vector2 GetGravity()</div><div class="ttdef"><b>Definition:</b> Application.cpp:147</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a7ee6c953744cce560840788135101b5b"><div class="ttname"><a href="classbruggles_1_1Application.html#a7ee6c953744cce560840788135101b5b">bruggles::Application::GetCameraPosition</a></div><div class="ttdeci">Vector2 GetCameraPosition()</div><div class="ttdef"><b>Definition:</b> Application.cpp:192</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a8b8f763be72d8a19e1334d878321903d"><div class="ttname"><a href="classbruggles_1_1Application.html#a8b8f763be72d8a19e1334d878321903d">bruggles::Application::SetCameraPosition</a></div><div class="ttdeci">void SetCameraPosition(Vector2 i_position)</div><div class="ttdef"><b>Definition:</b> Application.cpp:196</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a8d215bb28a1f7c9e395fd12d0b12b30e"><div class="ttname"><a href="classbruggles_1_1Application.html#a8d215bb28a1f7c9e395fd12d0b12b30e">bruggles::Application::GetKeyDown</a></div><div class="ttdeci">bool GetKeyDown(const std::string key)</div><div class="ttdef"><b>Definition:</b> Application.cpp:178</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a96bd9e18033f2f93940425a5bf75f98e"><div class="ttname"><a href="classbruggles_1_1Application.html#a96bd9e18033f2f93940425a5bf75f98e">bruggles::Application::QueueSceneLoad</a></div><div class="ttdeci">void QueueSceneLoad(std::string i_filePath)</div><div class="ttdef"><b>Definition:</b> Application.cpp:69</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_a99a907d666f3d1a7329cd292cf27f6fb"><div class="ttname"><a href="classbruggles_1_1Application.html#a99a907d666f3d1a7329cd292cf27f6fb">bruggles::Application::DeserializeGameObjectHelper</a></div><div class="ttdeci">void DeserializeGameObjectHelper(pybind11::handle gSerialized)</div><div class="ttdef"><b>Definition:</b> Application.cpp:78</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_aa19921da6cfe59845b460f1d8903eb8b"><div class="ttname"><a href="classbruggles_1_1Application.html#aa19921da6cfe59845b460f1d8903eb8b">bruggles::Application::LoadSceneData</a></div><div class="ttdeci">void LoadSceneData(std::string i_filePath)</div><div class="ttdef"><b>Definition:</b> Application.cpp:108</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_aa53d446afbf241e8e845c8ebb9bbb09b"><div class="ttname"><a href="classbruggles_1_1Application.html#aa53d446afbf241e8e845c8ebb9bbb09b">bruggles::Application::SetGravity</a></div><div class="ttdeci">void SetGravity(Vector2 i_gravity)</div><div class="ttdef"><b>Definition:</b> Application.cpp:143</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_aae1af64e46bc6001271f37eeaa0de0ce"><div class="ttname"><a href="classbruggles_1_1Application.html#aae1af64e46bc6001271f37eeaa0de0ce">bruggles::Application::AddGameObject</a></div><div class="ttdeci">std::shared_ptr&lt; bruggles::GameObject &gt; AddGameObject()</div><div class="ttdef"><b>Definition:</b> Application.cpp:151</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_ac7809b3bc5ef62fa449c5582a8b34ecb"><div class="ttname"><a href="classbruggles_1_1Application.html#ac7809b3bc5ef62fa449c5582a8b34ecb">bruggles::Application::GetWidth</a></div><div class="ttdeci">float GetWidth()</div><div class="ttdef"><b>Definition:</b> Application.cpp:135</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_aceb0ccfaf12660747b7b8b1c9d3a9879"><div class="ttname"><a href="classbruggles_1_1Application.html#aceb0ccfaf12660747b7b8b1c9d3a9879">bruggles::Application::GetKeyUp</a></div><div class="ttdeci">bool GetKeyUp(const std::string key)</div><div class="ttdef"><b>Definition:</b> Application.cpp:185</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_ad32f20ea6af7a683458ffff2b7cbde1a"><div class="ttname"><a href="classbruggles_1_1Application.html#ad32f20ea6af7a683458ffff2b7cbde1a">bruggles::Application::Loop</a></div><div class="ttdeci">void Loop()</div><div class="ttdef"><b>Definition:</b> Application.cpp:292</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_ad378a1322901bcdf4f3bd37b0316efc1"><div class="ttname"><a href="classbruggles_1_1Application.html#ad378a1322901bcdf4f3bd37b0316efc1">bruggles::Application::GenerateUniqueID</a></div><div class="ttdeci">Uint64 GenerateUniqueID()</div><div class="ttdef"><b>Definition:</b> Application.cpp:358</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_adc07f190cfe20f56374ec7925a8ad2a9"><div class="ttname"><a href="classbruggles_1_1Application.html#adc07f190cfe20f56374ec7925a8ad2a9">bruggles::Application::GetCurrentScene</a></div><div class="ttdeci">std::string GetCurrentScene()</div><div class="ttdef"><b>Definition:</b> Application.cpp:74</div></div>
+<div class="ttc" id="aclassbruggles_1_1Application_html_ae281a73420b02e34db5bbb181bbace08"><div class="ttname"><a href="classbruggles_1_1Application.html#ae281a73420b02e34db5bbb181bbace08">bruggles::Application::AddRigidbody</a></div><div class="ttdeci">void AddRigidbody(physics::Rigidbody *i_rigidbody)</div><div class="ttdef"><b>Definition:</b> Application.cpp:263</div></div>
 <div class="ttc" id="aclassbruggles_1_1TextureManager_html"><div class="ttname"><a href="classbruggles_1_1TextureManager.html">bruggles::TextureManager</a></div><div class="ttdef"><b>Definition:</b> TextureManager.hpp:16</div></div>
 <div class="ttc" id="aclassbruggles_1_1components_1_1Renderer_html"><div class="ttname"><a href="classbruggles_1_1components_1_1Renderer.html">bruggles::components::Renderer</a></div><div class="ttdef"><b>Definition:</b> Renderer.hpp:12</div></div>
 <div class="ttc" id="aclassbruggles_1_1physics_1_1DynamicsWorld_html"><div class="ttname"><a href="classbruggles_1_1physics_1_1DynamicsWorld.html">bruggles::physics::DynamicsWorld</a></div><div class="ttdef"><b>Definition:</b> DynamicsWorld.hpp:13</div></div>
